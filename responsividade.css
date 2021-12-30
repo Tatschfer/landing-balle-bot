@@ -46,14 +46,16 @@
   @media(max-width: 425px){
   
     .cabecalho-menu {
+      display: flex;
+      flex-direction: column;
       flex-wrap: wrap;
-      gap: 5px;
+      gap: 10px;
       padding-left: 15px;
       justify-content: space-around;
     }
   
     .cabecalho-menu-item {
-      font-size: 12px;
+      font-size: 17px;
     }
 
     .conteudo-principal-escrito-botao{
