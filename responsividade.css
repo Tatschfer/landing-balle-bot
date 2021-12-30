@@ -1,0 +1,65 @@
+@media(max-width: 1080px){
+    .conteudo{
+      width: 90%;
+    }
+  }
+  
+  @media(max-width: 768px){
+  
+    .cabecalho-menu {
+      flex-wrap: wrap;
+      gap: 15px;
+      padding-left: 20px;
+      justify-content: space-around;
+    }
+  
+     .cabecalho-imagem {
+      padding-left: 20px;
+    }
+  
+    .conteudo { 
+      text-align: center;
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .conteudo-principal{ 
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+    }
+  
+    .conteudo-principal-imagem {
+      height: 330px;
+    }
+
+    .conteudo-principal-escrito-botao{
+        width: 140px;
+        height: 40px;
+        font-size: 18px;
+        align-self: center;
+    } 
+   
+  }
+  
+  @media(max-width: 425px){
+  
+    .cabecalho-menu {
+      flex-wrap: wrap;
+      gap: 5px;
+      padding-left: 15px;
+      justify-content: space-around;
+    }
+  
+    .cabecalho-menu-item {
+      font-size: 12px;
+    }
+
+    .conteudo-principal-escrito-botao{
+        width: 140px;
+        height: 40px;
+        font-size: 18px;
+        align-self: center; 
+    }
+  }
